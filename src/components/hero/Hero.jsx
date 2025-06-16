@@ -33,7 +33,7 @@ const Hero = () => {
                     <a href=""><div className="icon icon-twitter"></div></a>
                     <a href="https://www.instagram.com/h_a_z_e_m_g_m_a_l_l/">  <div className="icon icon-instagram"></div></a>
                     <a href="https://github.com/hazem257"> <div className="icon icon-github"></div></a>
-                    <a href="https://www.linkedin.com/in/hazem-gamal-2a145b320/"><div className="icon icon-linkedin-square"></div></a>
+                    <a href="https://www.linkedin.com/in/hazem-gamal-2a145b320/"><div className="icon icon-linkedin"></div></a>
                 </div>
 
 
