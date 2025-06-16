@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import { useEffect, useState } from 'react';
@@ -9,7 +8,7 @@ import ProjectDetails from "./components/main/ProjectDetails";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import { myprojects } from './components/main/myprojects';
-import Courses from './components/courses/Courses';
+import Courses from './components/courses/MyCourses';
 
 function App() {
   const [showScroll, setshowScroll] = useState(false);
