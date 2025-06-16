@@ -44,6 +44,8 @@ function App() {
           } />
 
           {/* صفحة تفاصيل مشروع معين */}
+      
+
           <Route path="/project/:id" element={
             <>
               <ProjectDetails />
@@ -63,7 +65,7 @@ function App() {
 
         {/*up Arrow */}
         <a style={{ opacity: showScroll ? 1 : 0, transition: "3s" }} href="#up">
-          <button className='scroll2Top icon-keyboard_arrow_up'></button>
+          <button className='scroll2Top icon-chevron-up'></button>
         </a>
       </div>
     </Router>
