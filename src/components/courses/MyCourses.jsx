@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { mycourse } from "./mycourse";
 import { AnimatePresence, motion } from "framer-motion";
 
-const Courses = ({ excludeId = false }) => {
+const MyCourses = ({ excludeId = false }) => {
   const { id } = useParams();
   const [currenActive, setCurrentActive] = useState("All Courses");
   
@@ -95,4 +95,4 @@ const Courses = ({ excludeId = false }) => {
   );
 };
 
-export default Courses;
+export default MyCourses;
